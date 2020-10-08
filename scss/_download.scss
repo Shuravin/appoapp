@@ -1,0 +1,28 @@
+.downloads {
+  padding: 5rem 0 0;
+  text-align: center;
+  background: $lightgrey;
+
+  &__text {
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    text-align: left;
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 3rem;
+    }
+
+    img {
+      margin-right: 1rem;
+    }
+  }
+
+  &__cta {
+    margin: 0 auto;
+    transform: translateY(1.3rem);
+  }
+}

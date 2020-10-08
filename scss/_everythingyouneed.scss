@@ -1,0 +1,49 @@
+.eyneed {
+  background: $lightgrey;
+  padding-top: 8.75rem;
+
+  &__text {
+    text-align: right;
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      background: none;
+      margin-bottom: 2rem;
+      li {
+        list-style-image: url("../media/check.png");
+        list-style-position: inside;
+      }
+    }
+  }
+
+  &__graphics {
+    .graphic-container {
+      display: flex;
+      margin-left: 7rem;
+      .white-box {
+        background: $white;
+
+        &-tall {
+          width: 120px;
+          height: 320px;
+          align-self: flex-end;
+        }
+
+        &-short {
+          width: 130px;
+          height: 300px;
+          align-self: flex-end;
+        }
+      }
+
+      .black-box {
+        width: 260px;
+        height: 460px;
+        background: $darkgray;
+      }
+    }
+  }
+}

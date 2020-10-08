@@ -1,0 +1,11 @@
+.footer {
+  background: $darkgray;
+  padding: 1.5rem 0;
+
+  .socials {
+    li {
+      display: inline-block;
+      margin-left: 1.5rem;
+    }
+  }
+}

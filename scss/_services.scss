@@ -1,0 +1,35 @@
+.services {
+  h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .horline {
+    width: 95px;
+    height: 3px;
+    background: $cyan;
+    margin: 0 auto 4.5rem;
+  }
+
+  .services-options {
+    margin-bottom: 7.8rem;
+    .service-card {
+      max-width: 280px;
+      align-self: stretch;
+      padding: $extralarge;
+      text-align: center;
+
+      img {
+        margin-bottom: $small;
+      }
+
+      p.text-black {
+        font-weight: 600;
+      }
+
+      p:not(:last-child) {
+        margin-bottom: $small;
+      }
+    }
+  }
+}

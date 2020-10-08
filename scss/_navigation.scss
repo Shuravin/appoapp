@@ -1,0 +1,29 @@
+.navigation {
+  background: $darkblue;
+  border-bottom: 1px solid $cyan;
+  padding: 1rem 0;
+
+  .logo {
+    width: 100px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navlinks {
+    li {
+      display: inline-block;
+
+      a {
+        color: $lightgrey;
+        margin-right: 2rem;
+        transition: color 0.5s ease;
+
+        &:hover {
+          color: $cyan;
+        }
+      }
+    }
+  }
+}

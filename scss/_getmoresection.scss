@@ -1,0 +1,28 @@
+.getmore {
+  margin: 0 0 5rem;
+  align-items: stretch;
+
+  div {
+    &:first-child {
+      width: 50vw;
+      background: $darkblue;
+      flex: 1;
+    }
+
+    &:last-child {
+      flex: 1.26;
+      background: $lightgrey;
+      padding-bottom: 5rem;
+
+      * {
+        padding-left: 7rem;
+        padding-right: 15rem;
+      }
+
+      h2 {
+        padding-top: 5rem;
+        margin-bottom: $extralarge;
+      }
+    }
+  }
+}

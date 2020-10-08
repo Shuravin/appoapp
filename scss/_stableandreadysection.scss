@@ -1,0 +1,49 @@
+.stable-ready {
+  margin-bottom: 5rem;
+  &__top {
+    margin-bottom: 11rem;
+    text-align: right;
+
+    h2 {
+      margin-bottom: $extralarge;
+    }
+
+    p {
+      margin-bottom: $extralarge;
+    }
+  }
+
+  .image {
+    filter: box-shadow (0 0.2rem 0.4rem rgba($black, 0.4));
+
+    img {
+      -webkit-filter: drop-shadow(0 0.5rem 0.4rem #000);
+      filter: drop-shadow(0 0.5rem 0.4rem #000);
+      margin-left: 8.5rem;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .horcard--section {
+      width: 100%;
+      flex: 1;
+    }
+
+    .image {
+      transform: translateX(-5rem);
+      flex: 1;
+      height: 80%;
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 70%;
+      }
+    }
+  }
+}

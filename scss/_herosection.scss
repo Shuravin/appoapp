@@ -1,0 +1,27 @@
+.hero {
+  background: $darkblue;
+  width: 100%;
+  height: 70vh;
+  padding-top: 15vh;
+  margin-bottom: $extralarge * 6;
+
+  .cta {
+    max-width: 400px;
+    align-self: flex-start;
+    transform: translateY(8vh);
+
+    h1 {
+      margin-bottom: $large;
+      font-size: $extralarge + 0.5rem;
+      font-weight: 500;
+    }
+
+    p {
+      margin-bottom: $extralarge;
+    }
+
+    .btn.btn-teal {
+      margin-right: $normal;
+    }
+  }
+}

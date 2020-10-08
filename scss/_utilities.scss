@@ -1,0 +1,130 @@
+// Containers
+.container {
+  margin: 0 auto;
+  &-sm {
+    max-width: 61.8rem;
+  }
+  &-md {
+    max-width: 71.8rem;
+  }
+  &-lg {
+    max-width: 73.75rem;
+  }
+}
+
+// Flex
+.flex {
+  display: flex;
+
+  &-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 8px;
+
+  &-teal {
+    background: $cyan;
+    color: $black;
+    font-size: $normal;
+    transition: all 0.2s ease;
+
+    &-cta {
+      background: $cyan;
+      color: $black;
+      font-size: $normal;
+      transition: all 0.2s ease;
+      border-radius: 0;
+      padding: 1rem 7rem;
+    }
+
+    &:hover {
+      background: $mediumgrey;
+      color: $darkblue;
+    }
+  }
+
+  &-empty {
+    background: none;
+    color: $white;
+    border: 1px solid $white;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: $lightgrey;
+      color: $darkblue;
+    }
+  }
+}
+
+// Text COlors
+.text {
+  &-white {
+    color: $white;
+  }
+  &-gray {
+    color: $mediumgrey;
+  }
+  &-black {
+    color: $black;
+  }
+  &-teal {
+    color: $cyan;
+  }
+}
+
+// Shadows
+.shadow {
+  &-sm {
+    box-shadow: 0 0.2rem 0.4rem rgba($black, 0.4);
+  }
+  &-lg {
+    box-shadow: 0 -0.3rem 0.6rem rgba($black, 0.6);
+  }
+}
+
+// Horizontal Card
+.horcard {
+  padding: 1rem 1.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: $white;
+  box-shadow: 0 0.2rem 0.4rem rgba($black, 0.4);
+  margin-bottom: 1.5rem;
+
+  &:hover {
+    background: $cyan;
+    box-shadow: 0 0.2rem 0.4rem rgba($cyan, 0.4);
+  }
+
+  &--icon {
+    margin-right: 1.2rem;
+  }
+
+  &__title {
+    margin: 0;
+  }
+}
+
+// Display Block and Hidden
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.forwards {
+  position: relative;
+  z-index: 100;
+}

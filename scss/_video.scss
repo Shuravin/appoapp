@@ -1,0 +1,15 @@
+.video-section {
+  background: $darkblue;
+  text-align: center;
+  padding: 10rem 0;
+
+  &__link {
+    img {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__title {
+    margin-bottom: 1.5rem;
+  }
+}

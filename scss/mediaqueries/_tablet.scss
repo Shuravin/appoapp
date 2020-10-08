@@ -1,0 +1,126 @@
+@media (max-width: 900px) {
+  //   .container {
+  //     &-sm {
+  //       max-width: 800px;
+  //     }
+
+  //     &-lg {
+  //       max-width: 800px;
+  //     }
+
+  //     &-md {
+  //       max-width: 800px;
+  //     }
+  //   }
+
+  .navigation {
+    a.btn.btn-teal {
+      margin-right: 1rem;
+    }
+
+    .hamburger {
+      display: none;
+    }
+  }
+
+  .hero {
+    padding: 3rem 2rem 0;
+    margin-bottom: 3rem;
+  }
+
+  .services {
+    &-options {
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin-bottom: 3rem !important;
+
+      .service-card {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .getmore {
+    border-top: 0.3rem solid $darkgray;
+    border-bottom: 0.3rem solid $darkgray;
+    text-align: center;
+    div {
+      &:first-child {
+        display: none;
+      }
+
+      &:last-child {
+        * {
+          padding: 0 2rem;
+        }
+      }
+    }
+  }
+
+  .stable-ready {
+    margin-bottom: 3rem;
+    .flex {
+      flex-direction: column-reverse;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      .stable-ready__top {
+        text-align: center;
+        margin: 3rem 2rem 5rem;
+      }
+
+      .image {
+        img {
+          margin-left: 0;
+        }
+      }
+    }
+
+    &__bottom {
+      .horcard--section {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  .eyneed {
+    padding: 3rem 2rem;
+
+    &__text {
+      text-align: center;
+    }
+
+    &__graphics {
+      display: none;
+    }
+  }
+
+  .video-section {
+    padding: 3rem 2rem;
+  }
+
+  .map-section {
+    padding: 7rem 0 6rem;
+  }
+
+  .quote-section {
+    padding: 3rem 8rem;
+  }
+
+  .downloads {
+    padding: 3rem 2rem;
+
+    &__cta {
+      margin: 2rem auto 0;
+    }
+  }
+
+  .bottom {
+    padding: 3rem 2rem;
+  }
+
+  .footer {
+    padding: 1.5rem 2rem;
+  }
+}
