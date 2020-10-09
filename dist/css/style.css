@@ -722,7 +722,7 @@ ul {
   .hero {
     padding: 0 2rem;
     margin-bottom: 2rem;
-    height: 65vh;
+    height: 90vh;
   }
   .hero .btn.btn-teal {
     margin-bottom: 1rem;
@@ -771,6 +771,9 @@ ul {
     margin-right: 0;
     margin-bottom: 2rem;
     max-width: 55vw;
+  }
+  .downloads__cta {
+    margin-top: 0;
   }
   .bottom {
     margin-bottom: 2rem;

@@ -79,7 +79,7 @@
   .hero {
     padding: 0 2rem;
     margin-bottom: 2rem;
-    height: 65vh;
+    height: 90vh;
     .btn.btn-teal {
       margin-bottom: 1rem;
     }
@@ -108,9 +108,6 @@
   .stable-ready {
     margin-bottom: 1.5rem;
     .flex {
-      .stable-ready__top {
-      }
-
       .image {
         img {
           max-width: 80vw;
@@ -145,6 +142,10 @@
       margin-right: 0;
       margin-bottom: 2rem;
       max-width: 55vw;
+    }
+
+    &__cta {
+      margin-top: 0;
     }
   }
 
